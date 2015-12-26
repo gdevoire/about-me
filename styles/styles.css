@@ -91,9 +91,9 @@ a:hover {
 
 .questions-section > h2 {
   /*typography declarations*/
-  font-family: "Gentium Book Basic", Georgia, serif;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.2em;
-  font-weight: bold;
+  /*font-weight: normal;*/
   /*Layout*/
   margin: 2em 0 1em 0;
 }
@@ -135,14 +135,21 @@ section > h1 {
     .content-footer {
       padding: .25rem 3rem .25rem 3rem;
       margin-top: 1rem;
-      margin-bottom: 1rem
+      margin-bottom: 1rem;
     }
 
     .social {
       padding: .25rem 3rem .25rem 3rem;
       margin-top: 1rem;
-      margin-bottom: 1rem
+      margin-bottom: 1rem;
     }
 
 
+}
+
+@media only screen and (min-width: 550px) and (max-width: 700px){
+
+      p {
+        color: red !important;
+      }
 }
