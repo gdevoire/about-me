@@ -1,2 +1,2 @@
-# gdevoire.github.io
+# About me project
 Learning
